@@ -1,0 +1,52 @@
+.app {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.app h1 {
+  color: coral;
+}
+
+.message-box {
+  height: 200px;
+  background-color: #fafafa;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.message-box li {
+  color: #2d333a;
+  list-style: none;
+}
+
+.end-msg {
+  height: 15px;
+}
+
+.chat-room {
+  display: flex;
+  margin: 1rem;
+}
+
+.username {
+  font-weight: 600;
+  color: coral;
+}
+
+.connections {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.chat-room form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
